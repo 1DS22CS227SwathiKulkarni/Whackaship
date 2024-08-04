@@ -1,0 +1,35 @@
+body{
+    font-family: arial, sans-serif;
+    text-align: center;
+    color:antiquewhite;
+    background: url("jack-sparrow.jpg");
+    background-size: cover;
+}
+#board{
+    width: 540px;
+    height: 540px;
+    background: url("ocean.jpg");
+    background-size: contain;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+#board div{
+    /*540 divided by 3 180*/
+    width: 180px;
+    height: 180px;
+    background-image: url("Treasure-box.png");
+    background-size: cover;
+}
+#board div img{
+    width: 150px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
